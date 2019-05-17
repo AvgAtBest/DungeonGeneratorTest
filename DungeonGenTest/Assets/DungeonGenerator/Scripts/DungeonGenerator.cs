@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using EL.Dungeon;
+using UnityEngine.SceneManagement;
 #if Unity_Editor
 using UnityEditor;
 #endif
@@ -32,7 +33,7 @@ public class DungeonGenerator : MonoBehaviour {
     public static int roomsCalledStart = 0;
 
     public bool generateWithTimer = true;
-
+    public int sceneToLoad = 1;
 	void Start () {
         
         //instance = this;
@@ -399,6 +400,7 @@ public class DungeonGenerator : MonoBehaviour {
         //    //Debug.Log(roomsCount + " | " + roomsCalledStart);
         //}
         if (Input.GetKeyDown(KeyCode.Return)) {
+            //SceneManager.LoadScene(sceneToLoad);
             Application.LoadLevel(Application.loadedLevel);
         }
     }
