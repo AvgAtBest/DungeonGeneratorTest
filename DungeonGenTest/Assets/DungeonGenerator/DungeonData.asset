@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: DungeonData
   m_EditorClassIdentifier: 
   sets:
-  - {fileID: 11400000, guid: 8c935a738432e444f88e273b4433494b, type: 2}
+  - {fileID: 11400000, guid: 70d623332f932484e85d05a2da5b929f, type: 2}

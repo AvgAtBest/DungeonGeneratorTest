@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2517925308062184720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -4.5, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2517925309230309264}
@@ -270,7 +270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2517925308767051618}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: -10}
+  m_LocalPosition: {x: -0, y: -5, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2517925308975794263}
@@ -361,8 +361,8 @@ MonoBehaviour:
   - {fileID: 488452044881134790}
   gameObjectContainer: {fileID: 2594086096862793961}
   bounds:
-    m_Center: {x: 1, y: 2, z: 1}
-    m_Extent: {x: 5, y: 3, z: 10}
+    m_Center: {x: 0, y: 0, z: 5}
+    m_Extent: {x: 5, y: 5, z: 10}
   voxelScale: 10
 --- !u!1 &2517925309013612662
 GameObject:
@@ -389,7 +389,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2517925309013612662}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 10}
+  m_LocalPosition: {x: -0, y: -5, z: 15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2517925308975794263}
